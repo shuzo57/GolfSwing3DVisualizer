@@ -1,0 +1,29 @@
+.file-upload-wrapper {
+    /* ラッパーのスタイル */
+    margin: 10px;
+}
+
+#csvFileInput {
+    /* 実際のファイル入力を隠す */
+    display: none;
+}
+
+#customButton {
+    /* カスタムボタンのスタイル */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#customButton:hover {
+    /* ホバー時のスタイル */
+    background-color: #45a049;
+}
+
+#fileChosen {
+    /* 選択されたファイルの名前を表示するスパンのスタイル */
+    margin-left: 10px;
+}
